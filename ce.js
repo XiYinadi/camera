@@ -20,6 +20,8 @@ let videoStream = null;
         console.error('摄像头访问失败:', error);
         alert('无法访问摄像头，请检查权限设置');
       }
+
+      document.getElementById('photo').src = 'bb.jpg';
     }
 
     // 关闭摄像头
